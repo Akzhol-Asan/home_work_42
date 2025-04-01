@@ -23,9 +23,7 @@ class CocktailCard extends StatelessWidget {
                 topRight: Radius.circular(16),
               ),
               image: DecorationImage(
-                image: NetworkImage(
-                  'https://www.thecocktaildb.com/images/media/drink/vrwquq1478252802.jpg',
-                ),
+                image: NetworkImage(cocktail.image),
                 fit: BoxFit.cover,
               ),
             ),

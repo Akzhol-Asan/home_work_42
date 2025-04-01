@@ -15,9 +15,7 @@ class SingleCocktailScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Image.network(
-              'https://www.thecocktaildb.com/images/media/drink/vrwquq1478252802.jpg',
-            ),
+            Image.network(cocktails.image),
             SizedBox(height: 10),
             Text('- ${cocktails.category}'),
             SizedBox(height: 5),
