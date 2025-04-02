@@ -21,7 +21,7 @@ class _SearchScreenState extends State<SearchScreen> {
     try {
       final List<dynamic> cocktailData = await request(
         cocktailName.isEmpty
-            ? 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita'
+            ? 'https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a'
             : 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=$cocktailName',
       );
 
